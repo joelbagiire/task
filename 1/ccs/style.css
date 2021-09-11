@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #11101d;
+    color: #ffffff;
+    display: flex;
+    color: #000000;
+    font-size: 15px;
+    justify-content: center;
+    justify-items: center;
+}
+.signup-form{
+    text-align: center;
+    margin-top: 10vh;
+}
+h1{
+    color: #ffffff;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.inputs-box{
+    margin-bottom: 35px;
+}
+.inputs-box input{
+    background: none;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    border-bottom: 1px solid rgb(255, 2, 2);
+    width: 95%;
+}
+.input-box{
+    margin-bottom: 10px;
+}
+.btn-box{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.btn-signup{
+    width: 95%;
+    height: 40px;
+    outline: none;
+    font-size: 19px;
+    font-weight: 800;
+    border: none;
+    background: rgb(255, 2, 2);
+    color: #11101d;
+    transition: 0.1s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn-signup:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+a{
+    color: #ffffff;
+}
+a:hover{
+    cursor: pointer;
+    color: rgb(255, 2, 2);
+}
+img{
+    height: 35px;
+    width: 35px;
+    padding: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+img:hover{
+    cursor: pointer;
+}

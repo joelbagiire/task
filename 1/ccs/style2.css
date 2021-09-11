@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #11101d;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-size: 19px;
+}
+.login-form{
+    margin-top: 7vh;
+    text-align: center;
+}
+h1{
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+}
+.input-box{
+    margin-bottom: 55px;
+}
+input{
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    border-bottom: 1px solid rgb(255, 2, 2);
+}
+.forgot-password{
+    margin-top: 15px;
+}
+.forgot-password a{
+    float: left;
+    color: #ffffff;
+}
+.forgot-password a:hover{
+    cursor: pointer;
+    color: rgb(255, 2, 2);
+}
+.btn-box{
+    margin-top: 75px;
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    font-size: 19px;
+    font-weight: 900;
+    color: #11101d;
+    background: rgb(255, 2, 2);
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: 0.1s ease-in-out;
+    margin-bottom: 20px;
+}
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+a{
+    color: #ffffff;
+}
+a:hover{
+    cursor: pointer;
+    color: rgb(255, 2, 2);
+}
+img{
+    height: 35px;
+    width: 35px;
+    margin-top: 15px;
+    padding: 14px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+img:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    background: #11101d;
+    height: 70px;
+    line-height: 70px;
+    color: #ffffff;
+    text-align: center;
+}
